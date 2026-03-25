@@ -1,6 +1,6 @@
-# Hey, I'm @theabsurdisst
-
-Building AI-powered data tools that turn raw warehouse data into decisions.
+<div align="center">
+  <img src="assets/banner.svg" alt="theabsurdisst" width="900"/>
+</div>
 
 ---
 
