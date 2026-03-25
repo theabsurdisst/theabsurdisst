@@ -1,16 +1,21 @@
-## Hi there 👋
+# Hey, I'm @theabsurdisst
 
-<!--
-**theabsurdisst/theabsurdisst** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Building AI-powered data tools that turn raw warehouse data into decisions.
 
-Here are some ideas to get you started:
+## What I build
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- **Personal BI platforms** — NL→SQL agents, anomaly detection, knowledge graphs
+- **RAG systems** — hybrid semantic + keyword retrieval, reranking, query expansion
+- **Agentic pipelines** — LangGraph multi-step reasoning, plan→investigate→synthesise
+- **LLMOps** — prompt versioning, eval logging, A/B testing, cost tracking
+
+## Stack
+
+Python · Streamlit · Snowflake · Gemini · LangGraph · ChromaDB · FastAPI · dbt · GCP Cloud Run
+
+## Projects
+
+### 🧠 megamind-orchestrator
+AI-powered BI platform — 21 pages, NL→SQL via Gemini, hybrid RAG search, Z-score anomaly detection, knowledge graph, LLM observability. Deployed on GCP Cloud Run.
+
+`streamlit` `snowflake` `langgraph` `rag` `gemini` `python`
