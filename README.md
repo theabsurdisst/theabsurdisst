@@ -2,20 +2,40 @@
 
 Building AI-powered data tools that turn raw warehouse data into decisions.
 
-## What I build
+---
 
-- **Personal BI platforms** — NL→SQL agents, anomaly detection, knowledge graphs
-- **RAG systems** — hybrid semantic + keyword retrieval, reranking, query expansion
-- **Agentic pipelines** — LangGraph multi-step reasoning, plan→investigate→synthesise
-- **LLMOps** — prompt versioning, eval logging, A/B testing, cost tracking
+## 🧠 Megamind BI
 
-## Stack
+> Personal AI analytics platform — natural language to SQL, hybrid RAG search, knowledge graphs, anomaly detection, and LLMOps. Built on Snowflake + Gemini + LangGraph, deployed on GCP Cloud Run.
 
-Python · Streamlit · Snowflake · Gemini · LangGraph · ChromaDB · FastAPI · dbt · GCP Cloud Run
+<table>
+<tr>
+<td width="50%"><img src="assets/screenshot_home.png"/><br/><sub><b>Home</b> — live Snowflake connection, quick-launch cards</sub></td>
+<td width="50%"><img src="assets/screenshot_rag.png"/><br/><sub><b>RAG Search</b> — semantic + BM25 hybrid retrieval with query expansion</sub></td>
+</tr>
+<tr>
+<td width="50%"><img src="assets/screenshot_brain_graph.png"/><br/><sub><b>Brain Graph</b> — 906 nodes · 135,792 edges</sub></td>
+<td width="50%"><img src="assets/screenshot_alerts.png"/><br/><sub><b>Anomaly Monitor</b> — Z-score detection across 15 KPIs</sub></td>
+</tr>
+</table>
 
-## Projects
+### What's inside
 
-### 🧠 megamind-orchestrator
-AI-powered BI platform — 21 pages, NL→SQL via Gemini, hybrid RAG search, Z-score anomaly detection, knowledge graph, LLM observability. Deployed on GCP Cloud Run.
+| | |
+|---|---|
+| **AI Analyst** | Ask questions in plain English — Gemini writes SQL, runs it, charts the result. Two-agent LangGraph pipeline (context mapper → SQL builder) to eliminate hallucinations |
+| **RAG Search** | Semantic + BM25 hybrid retrieval over a knowledge base. Query expansion, reranking, conversation memory |
+| **Brain Graph** | Knowledge graph with 900+ nodes and 135k+ edges. Graph-based retrieval across concept edges |
+| **Anomaly Monitor** | Z-score detection across 15 KPIs vs rolling 4-week baseline. Slack alerts |
+| **Observability** | Every LLM call logged — latency, token cost, feedback, cache hit rate |
+| **RCA** | Root cause analysis agent — multi-step plan→investigate→synthesise pipeline |
+| **LLMOps** | Prompt versioning, A/B testing, auto-promotion based on metrics |
+| **+ 14 more** | Explorer, Dashboards, Maps, Visual Builder, Weekly Review, Data Quality… |
 
-`streamlit` `snowflake` `langgraph` `rag` `gemini` `python`
+### Stack
+
+`Python` `Streamlit` `Snowflake` `Gemini` `LangGraph` `ChromaDB` `FastAPI` `dbt` `GCP Cloud Run`
+
+---
+
+*Building in public — one absurd idea at a time.*
