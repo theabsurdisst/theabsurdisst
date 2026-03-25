@@ -37,6 +37,12 @@ Building AI-powered data tools that turn raw warehouse data into decisions.
 **AI & Agents**
 `LangGraph` `LangChain` `Gemini 2.0 Flash` `Vertex AI` `ChromaDB` `BM25` `networkx`
 
+**ML & Statistical Methods**
+`Z-score anomaly detection` `TF-IDF` `BM25 scoring` `Reciprocal Rank Fusion` `PageRank` `Louvain community detection` `scipy`
+
+**LLM Evaluation & Benchmarking**
+`Golden query regression suite` `LLM-as-judge scoring` `Prompt A/B testing` `Latency / cost / feedback tracking` `Auto-promotion based on eval metrics`
+
 **Data**
 `Snowflake` `dbt` `pandas` `numpy` `scipy`
 
