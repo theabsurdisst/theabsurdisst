@@ -34,7 +34,23 @@ Building AI-powered data tools that turn raw warehouse data into decisions.
 
 ### Stack
 
-`Python` `Streamlit` `Snowflake` `Gemini` `LangGraph` `ChromaDB` `FastAPI` `dbt` `GCP Cloud Run`
+**AI & Agents**
+`LangGraph` `LangChain` `Gemini 2.0 Flash` `Vertex AI` `ChromaDB` `BM25` `networkx`
+
+**Data**
+`Snowflake` `dbt` `pandas` `numpy` `scipy`
+
+**Frontend**
+`Streamlit` `React` `Vite` `TypeScript` `Tailwind CSS` `Plotly` `pydeck / deck.gl`
+
+**Backend & APIs**
+`FastAPI` `uvicorn` `Python 3.11` `SQLite`
+
+**Infra & Cloud**
+`GCP Cloud Run` `Cloud Build` `Vertex AI` `GCP Secret Manager` `Google Cloud Storage`
+
+**Integrations**
+`Slack (Bolt SDK)` `Google Drive / Sheets / Slides API` `gspread`
 
 ---
 
