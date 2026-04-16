@@ -60,4 +60,4 @@
 
 ---
 
-*Building in public — one absurd idea at a time.*
+*Building in public, one absurd idea at a time.*
